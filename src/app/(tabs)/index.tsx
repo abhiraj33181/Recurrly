@@ -6,7 +6,7 @@ const SafeAreaView = styled(RNSafeAreaView);
 export default function Index() {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text>Index</Text>
+      <Text className="font-sans-bold text-7xl">Index</Text>
     </SafeAreaView>
   );
 }
